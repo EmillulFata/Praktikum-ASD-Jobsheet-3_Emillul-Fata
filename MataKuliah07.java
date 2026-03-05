@@ -17,7 +17,14 @@ public class MataKuliah07 {
     this.jam = jam;
   }
 
-  void tampilInformasi() {
+  void tambahData(String kodeMK, String namaMK, int sks, int jam) {
+        this.kodeMK = kodeMK;
+        this.namaMK = namaMK;
+        this.sks = sks;
+        this.jam = jam;
+  }
+
+  void CetakInfo() {
     System.out.println("Kode MK : " + kodeMK);
     System.out.println("Nama MK : " + namaMK);
     System.out.println("SKS     : " + sks);
