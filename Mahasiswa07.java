@@ -5,6 +5,14 @@ public class Mahasiswa07 {
   String kelas;
   double ipk;
 
+  void cetakInfo() {
+    System.out.println("NIM : " + nim);
+    System.out.println("Nama : " + nama);
+    System.out.println("Kelas : " + kelas);
+    System.out.println("IPK : " + ipk);
+    System.out.println("-------------------------------");
+  }
+
   // Konstruktor default
   public Mahasiswa07() {
   }
